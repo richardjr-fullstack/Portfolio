@@ -2,7 +2,7 @@ import { Badge, Box, Button, Container, Divider, Flex, Heading, Text } from '@ch
 import React from 'react'
 import { useRouter } from 'next/router'
 
-function About() {
+const About = () => {
   const router = useRouter()
   return (
     <Box bgGradient='linear(to-r, rgba(245,245,245,.8), rgba(245,245,245,.8))' w='100%' h='100vh' display= 'flex' flexDirection='column' justifyContent='center' id='about'>

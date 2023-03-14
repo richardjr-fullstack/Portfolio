@@ -2,7 +2,7 @@ import React from 'react'
 import { Box, Heading, Text, Button, Flex, Image } from '@chakra-ui/react'
 import { useRouter } from 'next/router'
 
-function Home() {
+const Home = () => {
     const router = useRouter()
   return (
     <Box bgImage={'/common-bg.svg'} bgRepeat='no-repeat' bgSize='cover' w='100%' h='100%' position='relative' id='home'>
