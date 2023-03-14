@@ -1,6 +1,6 @@
 import React from 'react'
 import { Box, Heading, Text, Button, Flex, Image, Divider } from '@chakra-ui/react'
-import  Form  from "./Form"
+import Form from './Form'
 
 const Contact = () => {
   return (
