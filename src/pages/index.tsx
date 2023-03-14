@@ -1,5 +1,5 @@
 import { Inter } from '@next/font/google'
-import Header from "../components/Navbar"
+import Navbar from "../components/Navbar"
 import Banner from "../components/Home"
 import IconList from "../components/Icon"
 import About from '../components/About'
@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>     
     <Seo/>
-      <Header/>
+      <Navbar/>
       <Banner/>
       <IconList/>
       <About/>
