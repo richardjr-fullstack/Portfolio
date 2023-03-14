@@ -2,7 +2,7 @@ import React from 'react'
 import { Box, Flex, Input, Button, Textarea, FormControl, FormLabel } from '@chakra-ui/react'
 import { useForm } from 'react-hook-form';
 
-export default function Form () {
+ const Form = () => {
   const { register, handleSubmit } = useForm();
 
   const onSubmit = handleSubmit((data) => console.log(data));
@@ -48,3 +48,4 @@ export default function Form () {
         </Flex>
       );
 }
+export default Form
