@@ -6,7 +6,7 @@ import { MdEmail } from 'react-icons/md'
 import { BsGithub, BsLinkedin } from 'react-icons/bs'
 import Link from 'next/link'
 
-function icon() {
+function Icons() {
   return (
     <Flex bg='#fff' boxShadow='md' p='10px' w='3%' alignContent='center' position='absolute' zIndex='100' top='8%' borderRadius='md'>
     <Box>
@@ -35,4 +35,4 @@ function icon() {
   )
 }
 
-export default icon
+export default Icons

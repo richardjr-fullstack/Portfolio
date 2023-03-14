@@ -1,8 +1,8 @@
 import React from 'react'
 import { Box, Heading, Text, Button, Flex, Image, Divider } from '@chakra-ui/react'
-import  Form  from "../components/form"
+import  Form  from "./Form"
 
-const contact = () => {
+const Contact = () => {
   return (
     <Box bgImage={'/common-bg.svg'} bgRepeat='no-repeat' bgSize='cover' w='100%' h='100%' position='relative' id='contact'>
     <Box position='absolute' w='100%' h='100%' bgGradient='linear(to-r, rgba(245,245,245,.8), rgba(245,245,245,.8))'></Box>
@@ -18,4 +18,4 @@ const contact = () => {
   )
 }
 
-export default contact
+export default Contact

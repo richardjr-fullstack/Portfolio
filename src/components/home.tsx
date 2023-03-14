@@ -19,7 +19,7 @@ function Home() {
                     ></Image>
                 </Flex>
                 <Box>
-                    <Heading fontSize='60px' color='#111111' fontWeight='900' textAlign='center'>Hey, I'm Richard T. Dela Cruz</Heading>
+                    <Heading fontSize='60px' color='#111111' fontWeight='900' textAlign='center'>Hey, I&apos;m Richard T. Dela Cruz</Heading>
                 </Box>
                 <Flex justifyContent='center' p='50px 0'>
                     <Text fontSize='22px' color='#111111' textAlign='center' lineHeight='35px' w={{lg:'59.5%', base:'100%'}}>A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product.</Text>

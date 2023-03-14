@@ -3,7 +3,7 @@ import { Box, Container, Heading, HStack, Image, Link } from '@chakra-ui/react'
 import { useRouter } from 'next/router'
 
 
-function navbar() {
+function Navbar() {
     const router = useRouter()
   return (
     <Box width='100%' bg='#FFFFFF' color='white' position='fixed' top='0' zIndex='100000'>
@@ -46,4 +46,4 @@ function navbar() {
   )
 }
 
-export default navbar
+export default Navbar

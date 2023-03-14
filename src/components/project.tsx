@@ -1,7 +1,7 @@
 import { Box, Button, Divider, Flex, Heading, Image, Text } from '@chakra-ui/react'
 import React from 'react'
 
-const project = () => {
+const Project = () => {
   return (
     <Box pb={'5rem'} pt={'10rem'} w='100%' h='auto' display= 'flex' flexDirection='column' justifyContent='center' id='project'>
       <Box display= 'flex' flexDirection='column' justifyContent='center' alignItems='center' pb='80px'>
@@ -49,4 +49,4 @@ const project = () => {
   )
 }
 
-export default project
+export default Project

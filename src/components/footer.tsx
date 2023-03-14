@@ -5,10 +5,10 @@ import { MdEmail } from 'react-icons/md'
 import { BsGithub, BsLinkedin } from 'react-icons/bs'
 import Link from 'next/link'
 
-const footer = () => {
+const Footer = () => {
   return (
-    <Box bg={'#000'} h='320px' id='footer'>
-        <Flex justifyContent='center' p={'3% 2%'}>
+    <Box bg={'#000'} h='400px' id='footer'>
+        <Flex justifyContent='center' p={'6% 2%'}>
             <Box>
                 <Heading color='#fff' fontSize='22px' pb={'40px'}>Richard T. Dela Cruz Jr.</Heading>
                 <Text color='#fff' w={'55%'} fontSize='16px' fontWeight={'300'}>A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product.</Text>
@@ -51,4 +51,4 @@ const footer = () => {
   )
 }
 
-export default footer
+export default Footer
