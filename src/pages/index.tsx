@@ -1,7 +1,7 @@
 import { Inter } from '@next/font/google'
-import Navbar from "@/components/Navbar"
-import Banner from "@/components/Home"
-import IconList from "@/components/Icon"
+import NavBar from '@/components/NavBar'
+import Banner from '@/components/Home'
+import IconList from '@/components/Icon'
 import About from '@/components/About'
 import Project from '@/components/Project'
 import Contact from '@/components/Contact'
@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>     
     <Seo/>
-      <Navbar/>
+      <NavBar/>
       <Banner/>
       <IconList/>
       <About/>
